@@ -1,0 +1,19 @@
+{
+  "name": "dropdownmenu",
+  "version": "1.0.0",
+  "description": "\"Simple Drop Down Menu\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-Khanna/dropDownMenu.git"
+  },
+  "author": "Michael Anand Khanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-Khanna/dropDownMenu/issues"
+  },
+  "homepage": "https://github.com/Michael-Khanna/dropDownMenu#readme"
+}
