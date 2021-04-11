@@ -1,0 +1,53 @@
+.vertical-menu {
+  width: 450px;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.vertical-menu a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background: #ce5937;
+  background: -moz-linear-gradient(left, #ce5937 0%, #1c6ea4 50%, #c59237 100%);
+  background: -webkit-linear-gradient(
+    left,
+    #ce5937 0%,
+    #1c6ea4 50%,
+    #c59237 100%
+  );
+  background: linear-gradient(to right, #ce5937 0%, #1c6ea4 50%, #c59237 100%);
+  color: white;
+}
+
+.concealed {
+  visibility: hidden;
+}
+
+.menuOpener {
+  font-family: arial;
+  color: #14396a !important;
+  font-size: 14px;
+  text-shadow: 1px 1px 0px #7cacde;
+  box-shadow: 1px 1px 1px #bee2f9;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #3866a3;
+  background: #63b8ee;
+  background: linear-gradient(to top, #63b8ee, #468ccf);
+}
+
+.menuOpener:hover {
+  color: #14396a !important;
+  background: #468ccf;
+  background: linear-gradient(to top, #468ccf, #63b8ee);
+}
